@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -14,11 +15,52 @@ export default {
 			center: true,
 			padding: '2rem',
 			screens: {
+				'sm': '640px',
+				'md': '768px',
+				'lg': '1024px',
+				'xl': '1280px',
 				'2xl': '1400px'
 			}
 		},
 		extend: {
 			colors: {
+				// Tema ReciclaJá
+				'recicla': {
+					50: '#f0f9f1',
+					100: '#dbf0dd',
+					200: '#b9e0bd',
+					300: '#8cc993',
+					400: '#5bac64',
+					500: '#3e9048',
+					600: '#2e7538',
+					700: '#265d2f',
+					800: '#214b28',
+					900: '#1d3e23',
+				},
+				'eco-blue': {
+					50: '#eefaff',
+					100: '#d9f3ff',
+					200: '#baeaff',
+					300: '#8adfff',
+					400: '#52caff',
+					500: '#2eafff',
+					600: '#1891f3',
+					700: '#1578de',
+					800: '#1864b5',
+					900: '#18558f',
+				},
+				'earth': {
+					50: '#f9f6f2',
+					100: '#f1eadd',
+					200: '#e3d2ba',
+					300: '#d4b795',
+					400: '#c29c73',
+					500: '#b38659',
+					600: '#a07351',
+					700: '#835e45',
+					800: '#6c4d3b',
+					900: '#5a4132',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -84,11 +126,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite'
 			}
 		}
 	},
