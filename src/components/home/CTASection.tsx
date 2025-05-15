@@ -22,7 +22,7 @@ const CTASection = () => {
             </Link>
           </Button>
           
-          <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-recicla-600 hover:text-white">
+          <Button asChild variant="outline" size="lg" className="border-white text-recicla-700 bg-white hover:bg-recicla-50">
             <Link to="/sugerir">
               Sugerir novo ponto
             </Link>
