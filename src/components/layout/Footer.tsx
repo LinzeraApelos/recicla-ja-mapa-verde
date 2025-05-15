@@ -53,7 +53,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-recicla-100">Contato</h3>
             <address className="not-italic text-sm text-recicla-300">
               <p>antoniognascjunior@gmail.com</p>
-              <p className="mt-2">São Paulo, Brasil</p>
+              <p className="mt-2">Brasília, DF</p>
             </address>
             <div className="mt-4 flex space-x-4">
               <a href="#" className="text-recicla-300 hover:text-recicla-100 transition-colors">

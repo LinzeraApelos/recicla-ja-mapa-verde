@@ -20,7 +20,6 @@ const SuggestPage = () => {
     locationName: "",
     address: "",
     city: "",
-    state: "",
     postalCode: "",
     materials: [] as MaterialType[],
     description: "",
@@ -60,7 +59,6 @@ const SuggestPage = () => {
         locationName: "",
         address: "",
         city: "",
-        state: "",
         postalCode: "",
         materials: [],
         description: "",
@@ -174,7 +172,7 @@ const SuggestPage = () => {
                       />
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="space-y-2">
                         <Label htmlFor="city">Cidade</Label>
                         <Input 
@@ -182,18 +180,7 @@ const SuggestPage = () => {
                           name="city"
                           value={formState.city}
                           onChange={handleChange}
-                          placeholder="Cidade" 
-                          required
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="state">Estado</Label>
-                        <Input 
-                          id="state" 
-                          name="state"
-                          value={formState.state}
-                          onChange={handleChange}
-                          placeholder="UF" 
+                          placeholder="Brasília" 
                           required
                         />
                       </div>
