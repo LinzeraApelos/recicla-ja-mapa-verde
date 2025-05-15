@@ -34,7 +34,7 @@ const MapPage = () => {
           
           <div className="aspect-video w-full rounded-lg overflow-hidden border border-recicla-200 dark:border-recicla-800 mb-4">
             <iframe 
-              src="https://www.google.com/maps/d/embed?mid=1kyt47dSgutKywHwN5mET_25xH6sjnfmP&ehbc=2E312F" 
+              src="https://www.google.com/maps/d/embed?mid=1kyt47dSgutKywHwN5mET_25xH6sjnfmP&ehbc=2E312F&maptype=roadmap" 
               width="100%" 
               height="100%" 
               title="Mapa de Pontos de Coleta"
